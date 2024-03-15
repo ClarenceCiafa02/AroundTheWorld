@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Around The World</title>
+    <!--=================== Remixicon ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=================== Main css ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <!--===================== header =========================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">Around The World</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#how" class="nav__link">Come funziona</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#explore" class="nav__link">Esplora</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#reservation" class="nav__link">Prenotazioni</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="nav__toggle">
+                <i id="nav-toggle" class="ri-menu-add-line"></i>
+            </span>
+        </nav>
+    </header>
+
+    <!--===================== main =========================-->
+    <main class="main">
+
+        <!--===================== home =========================-->
+        <section id="home" class="home">
+            <video src="assets/video/VideoIrlanda.mp4" class="video__background" id="video-background"></video>
+            <div class="video__overlay"></div>
+            <div class="home__wrapper d-grid container">
+                <div class="home__content">
+                    <h1 class="home__title">Around The World</h1>
+                    <p class="home__description">Il modo di viaggiare come non l'hai mai visto prima</p>
+                    <div class="home__buttons">
+                        <a href="#" class="btn btn--primary">Inizia</a>
+                        <button class="video__btn" id="video-btn">
+                            <i id="video-icon" class="ri-play-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== come funziona =========================-->
+        <section id="how" class="how section">
+            <div class="section__header">
+                <h2 class="section__title">Come funziona</h2>
+                <p class="section__description">Ti guiteremo passo passo verso la tua prossima avventura</p>
+            </div>
+            <div class="how__wrapper d-grid container">
+                <!----------------Come funziona 1------------>
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    <h3 class="how__title">Seleziona La Destinazione</h3>
+                    <p class="how__description">Prima di tutto scegli il posto che vorresti visitare</p>
+                </div>
+                <!----------------Come funziona 2------------>
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-ticket-line"></i>
+                    </div>
+                    <h3 class="how__title">Prenota il tuo viaggio</h3>
+                    <p class="how__description">Prenota il tuo viaggio approfittando delle nostre offerte</p>
+                </div>
+                <!----------------Come funziona 3------------>
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-flight-takeoff-line"></i>
+                    </div>
+                    <h3 class="how__title">Scegli il tuo volo</h3>
+                    <p class="how__description">Scegli il tuo volo e tuffati nell'avventura...</p>
+                    <p class="how__descriprion">CHE ASPETTI!</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== esplora =========================-->
+        <section id="explore" class="explore section">
+            <div class="section__header">
+                <h2 class="section__title">Esplora il mondo</h2>
+                <p class="section__description">Alcune delle nostre mete pronte per te</p>
+            </div>
+            <div class="explore__wrapper d-grid container">
+                <!----------------------Esplora 1------------>
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/immagini/Giordamia.jpeg" alt="Giordania,Asia" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Giordania</h3>
+                    <p class="explore__country">Asia</p>
+                </div>
+                <!----------------------Esplora 2------------>
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/immagini/Mosca.jpeg" alt="Mosca,Russia" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Mosca</h3>
+                    <p class="explore__country">Russia</p>
+                </div>
+                <!----------------------Esplora 3------------>
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/immagini/Egitto.jpg" alt="Egitto,Afria" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Egitto</h3>
+                    <p class="explore__country">Africa</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== prenotazioni =========================-->
+        <section id="reservation" class="reservation section">
+            <div class="section__header">
+                <h2 class="section__title">Prenotazioni</h2>
+                <p class="section__description">Cosa ASPETTI? Prenota ORA!</p>
+            </div>
+            <div class="reservation__wrapper d-grid container">
+                <!----------------Prenotazioni 1------------------>
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Giordania</h3>
+                        <p class="reservation__description">Asia</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Volo disponibile per</h3>
+                        <p class="reservation__description">5 ore</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Durata</h3>
+                        <p class="reservation__description">3h 40min</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="https://www.skyscanner.it/rotte/rome/jo/roma-per-giordania.html"
+                            class="btn btn--primary">Prenota Ora</a>
+                    </div>
+                </div>
+                <!----------------Prenotazioni 2------------------>
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Mosca</h3>
+                        <p class="reservation__description">Russia</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Volo disponibile per</h3>
+                        <p class="reservation__description">2 ore</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Durata</h3>
+                        <p class="reservation__description">4 ore</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="https://www.expedia.it/lp/voli/fco/dme/roma-a-mosca" class="btn btn--primary">Prenota
+                            Ora</a>
+                    </div>
+                </div>
+                <!----------------Prenotazioni 3------------------>
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Egitto</h3>
+                        <p class="reservation__description">Africa</p>
+                    </div>
+
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Volo disponibile per</h3>
+                        <p class="reservation__description">7 ore</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Durata</h3>
+                        <p class="reservation__description">3 ore</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="https://www.edreams.it/voli/roma-il-cairo/ROM/CAI/?mktportal=google&utm_id=go_cmp-18440725104_adg-143382622042_ad-624478043407_dsa-1461438800633_dev-c_ext-55027942928_locphy-9181243_mtype-_ntw-g&gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T-EmAaJ1FnwzFc9SFg0cerp06feQWinhacyoKHvl8hUWhL0k6RPnJoaApVmEALw_wcB"
+                            class="btn btn--primary">Prenota Ora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mete Ambite -->
+        <main class="popular-destinations__wrapper">
+            <!-- titolo sezione -->
+            <div>
+                <h2 class="section__title">Mete Ambite</h2>
+                <p class="popular-destinations__subtitle">Scopri le mete più ambite dagli altri viaggiatori.</p>
+            </div>
+            <!-- meta 1 -->
+            <section class="mete_section">
+                <div class="meta__item" id="meta1">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta1.jpg" alt="Meta 1" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">Giappone</h3>
+                        <p class="explore__country">Il Giappone è uno dei paesi più affascinanti del mondo, custode di
+                            una
+                            cultura millenaria, ricca di storia e mistero. Si tratta di un viaggio unico alla scoperta
+                            di
+                            grandi metropoli come Tokyo e Kyoto, dei paesaggi montuosi del Monte Fuji, delle
+                            meravigliose
+                            località del nord e delle zone costiere del sud del Giappone</p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta1">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta1">0</span>
+                    </div>
+                </div>
+
+                <!---------------------Meta 2--------------------------------->
+                <div class="meta__item" id="meta2">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta2.jpg" alt="Meta 2" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">India</h3>
+                        <p class="explore__country">È uno dei 51 Stati che hanno dato vita all'ONU nel 1945. È bagnata
+                            dall'Oceano Indiano a sud, dal Mar Arabico a ovest e dal Golfo del Bengala a est, possiede
+                            una
+                            linea costiera che si estende per 7517 km, e confina con il Pakistan a ovest, Cina, Nepal e
+                            Bhutan a nord-est, Bangladesh e Myanmar a est.</p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta2">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta2">0</span>
+                    </div>
+                </div>
+                <!------------------------------Meta 3-------------------------------------->
+                <div class="meta__item" id="meta3">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta3.jpg" alt="Meta 3" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">Azzorre</h3>
+                        <p class="explore__country">e Azzorre non sono isole tropicali, come molti pensano: sono isole
+                            oceaniche vulcaniche dal clima temperato, circondate da imponenti scogliere affacciate sul
+                            mare, con rare e magnifiche spiagge di sabbia chiara o nera e piscine naturali create dal
+                            lavoro secolare di mare e roccia vulcanica.</p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta3">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta3">0</span>
+                    </div>
+                </div>
+                <!------------------------------Meta 4-------------------------------------->
+                <div class="meta__item" id="meta4">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta4.jpg" alt="Meta 4" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">Lapponia</h3>
+                        <p class="explore__country">
+                            Si tratta di una regione che include il Nord della Svezia,
+                            Finlandia, Norvegia e perfino la Russia, nello specifico la zona della penisola di Kola.
+                            Parliamo quindi di un territorio vasto con paesaggi che mutano da una zona all'altra. Le
+                            destinazioni in Lapponia sono di grande interesse culturale e naturalistico.
+                        </p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta4">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta4">0</span>
+                    </div>
+                </div>
+                <!------------------------------Meta 5-------------------------------------->
+                <div class="meta__item" id="meta5">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta5.jpg" alt="Meta 5" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">Tanzania</h3>
+                        <p class="explore__country">Una terra di savane sconfinate, antichi vulcani, fitte foreste e
+                            spiagge incontaminate. La Tanzania è la quintessenza dell'avventura africana: paesaggi
+                            iconici, fauna sensazionale ed eleganti safari camp." Il Cratere di Ngorongoro, una
+                            gigantesca caldera con vedute mozzafiato ed un ecosistema unico brulicante di vita.</p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta5">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta5">0</span>
+                    </div>
+                </div>
+                <!------------------------------Meta 6-------------------------------------->
+                <div class="meta__item" id="meta6">
+                    <div class="meta__img-wrapper">
+                        <img src="assets/immagini/Meta6.jpg" alt="Meta 6" class="explore__img">
+                    </div>
+                    <div class="explore__info">
+                        <h3 class="explore__name">Hawaii</h3>
+                        <p class="explore__country">L'isola di Hawaii o grande isola di Hawaii (Hawaii o The Big Island
+                            in inglese, Hawai'i in hawaiiano) è la maggiore isola delle Hawaii e degli interi Stati
+                            Uniti d'America e la più orientale delle isole dell'arcipelago hawaiiano. Ha una superficie
+                            di 10.432,5 km² e una popolazione di 158.423 abitanti (dato del 2003).
+                        </p>
+                        <!-- Bottone Like -->
+                        <button class="like-btn" data-meta-id="meta6">Like</button>
+                        <!-- Contatore Like -->
+                        <span class="like-count" data-meta-id="meta6">0</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!--===================== blog =========================-->
+        <section id="blog" class="blog section">
+            <div class="section__header">
+                <h2 class="section__title">Blog</h2>
+                <p class="section__description">Qualche Foto Scattata Dai Nostri Clienti</p>
+            </div>
+            <div class="blog__wrapper d-grid container">
+                <!-------------------Blog 1------------------------>
+                <div class="blog__item">
+                    <img src="assets/immagini/Terminillo.jpg" alt="" class="blog__img">
+                    <p class="blog__date">13 Marzo 2024</p>
+                    <h3 class="blog__title">La pace dei sensi -Terminillo</h3>
+                    <p class="blog__description">Una giornata passata in tranquillità, un posto di montagna davevro
+                        unico, mi ha piacevolmente sorpreso, da rifare...</p>
+                    <a href="#" class="blog__link">Leggi di più</a>
+                </div>
+                <!-------------------Blog 2------------------------>
+                <div class="blog__item">
+                    <img src="assets/immagini/SantAnder.jpg" alt="" class="blog__img">
+                    <p class="blog__date">16 Novembre 2022</p>
+                    <h3 class="blog__title">Dove cè Sempre il Sole -Santander</h3>
+                    <p class="blog__description">Un posto della Spagna diverso dal solito, lontano dalle grande
+                        città, con un oceano meraviglioso ed una calma assoluta, un vero paradiso...</p>
+                    <a href="#" class="blog__link">Leggi di più</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== recensioni =========================-->
+        <section class="testimonial section">
+            <div class="section__header">
+                <h2 class="section__title">Recensioni Clienti</h2>
+                <p class="section__description">Alcuni feedback dei nostri clienti riguardo ai nostri voli</p>
+            </div>
+            <div class="testimonial__wrapper d-grid container">
+                <!------------------Recensioni 1------------------>
+                <div class="testimonial__item">
+                    <img src="assets/immagini/Ame.jpg" alt="Alexandra Amelia" class="testimonial__img">
+                    <h3 class="testimonial__name">Alexandra Amelia</h3>
+                    <p class="testimonial__quote">
+                        "Sono super mega iper soddisfatta dell'avventura che Around The World mi ha permesso di fare. Fino all'ultimo sono stati sempre super disponibili e attenti ad ogni minimo dettaglio, per non parlare dell'organizzazione ultra top. Consiglio vivamente a coloro che staranno a legge questa recensione di scegliere Around The World e vi assicuro che non ve ne pentirete...🩵🩵"</p>
+                </div>
+                <!------------------Recensioni 2------------------>
+                <div class="testimonial__item">
+                    <img src="assets/immagini/Cla.jpg" alt="Clarence" class="testimonial__img">
+                    <h3 class="testimonial__name">Clarence</h3>
+                    <p class="testimonial__quote">"Conosco Around The World  da tanti anni per i loro tour , questa volta mi sono rivolta a loro per organizzare un Viaggio individuale su misura al Nord della Norvegia per la "caccia" all'aurora boreale. Tutto è stato perfetto, dalla scelta della compagnia aerea all'hotel fino ai tour operator locali scelti per le varie attività incluse nel pacchetto. Anche nei tour individuali garantiscono una reperibilità h24, da contattare in caso di problemi - ovviamente, non ce n'è stato bisogno.
+                        Il loro personale in ufficio è estremamente disponibile a soddisfare ogni dubbio o a valutare richieste specifiche.
+                        Nonostante oggi esistano numerosi Tour Operator che offrono servizi simili, Around The World rimane sempre la scelta migliore! 💪🏼💪🏼🔥"</p>
+                </div>
+                <!------------------Recensioni 3------------------>
+                <div class="testimonial__item">
+                    <img src="assets/immagini/Walter2.jpg" alt="Walter" class="testimonial__img">
+                    <h3 class="testimonial__name">Walter</h3>
+                    <p class="testimonial__quote">"Abbiamo scelto il safari in Tanzania stimolati dai numerosi documentari visti in TV e possiamo dire che le aspettative sono state superate alla grande.
+                        Nell' organizzare il viaggio, ci siamo affidati ad Andrea di Tanzania *** che ci ha affidati a Salimu la guida e Kelvin il driver.
+                        Il safari prevedeva la visita al cratere di Ngorongoro, il Serengeti, la riserva di Ndutu, Maniana National park, il Taranghire National park.
+                        Tutto perfettamente organizzato.
+                        Abbiamo avuto la sensazione di essere dentro un documentario!
+                        Insomma tutto è andato benissimo, i ragazzi meritano un bel 10 e lode e ovviamente anche "Tanzania".💫"</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===================== footer =========================-->
+    <footer class="footer">
+        <div class="footer__wrapper d-grid container">
+            <div class="footer__item">
+                <h3 class="footer__title">Around The World</h3>
+                <p class="footer__description">Around The World è una piccola realtà , nata da poco , che punta a far
+                    viaggiare più persone possibili ad un prezzo contenuto per tutti</p>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">Chi Siamo</h4>
+                <ul class="footer__list">
+                    <a href="" class="footer__link">Noi</a>
+                    <a href="" class="footer__link">Blog</a>
+                    <a href="" class="footer__link">Obbiettivi</a>
+                    <a href="" class="footer__link">Termini e Condizioni</a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">Contattaci</h4>
+                <ul class="footer__list">
+                    <a href="" class="footer__link">Contatti</a>
+                    <a href="" class="footer__link">Partner</a>
+                    <a href="" class="footer__link">Supporto</a>
+                    <a href="" class="footer__link">Collaborazioni</a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__description">Iscrivi alla nostra casella per rimanere aggiornato su tutte le nuove
+                    offerte</p>
+                <form action="" class="footer__form">
+                    <input type="email" class="form__input" placeholder="Inserisci la tua email">
+                    <button class="btn btn--primary">Iscriviti</button>
+                </form>
+            </div>
+        </div>
+        <p class="footer__copyright container">
+            &copy; Copyright 2024 Around The World
+        </p>
+    </footer>
+
+    <!--===================== torna su =========================-->
+    <a href="#" class="scrolltop" id="scrolltop">
+        <i class="ri-arrow-up-s-fill"></i>
+    </a>
+    <!--=================== ScrollReveal ====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=================== Main js ====================-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

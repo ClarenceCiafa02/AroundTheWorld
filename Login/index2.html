@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <heaad>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Around The World Login</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+    </head>
+    <body>
+        <div class="container" id="container">
+
+
+            <div class="form-container register">
+
+                <form>
+                    <h1>Registrati</h1>
+
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Conferma password" required>
+
+                    <button>Registrati</button>
+
+                    <span>Registrati con</span>
+                    <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-apple' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>                       
+                    </div>
+                </form>
+            </div>
+            <div class="form-container login">
+                <form>
+                    <h1>Accedi</h1>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <a href="#">Hai dimenticato la password?</a>
+                    <button>Accedi</button>
+
+                    <span>Accedi con</span>
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-google'></i></a>
+                        <a href="#"><i class='bx bxl-apple' ></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel left">
+                        <h2>Bentornato</h2>
+                        <p>Accedi in Around The World</p>
+                        <button class="hidden" id="login">Accedi</button>
+                    </div>
+                    <div class="toggle-panel right">
+                        <h2>Hey,Benvenuto in "Around The World"</h2>
+                        <p>Registrati per scoprire nuove mete</p>
+                        <button class="hidden" id="register">Registrati</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
